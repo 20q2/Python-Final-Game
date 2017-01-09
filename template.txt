@@ -1,0 +1,178 @@
+[level]
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+
+                                        
+                                        
+                                        
+                                        
+
+                                        
+                                        
+                                        
+                                        
+                                        
+[.]
+name = floor
+tile = 0, 3
+
+[#]
+name = wall
+wall = true
+block = true
+
+[:]
+name = door
+sprite = door.png
+
+[;]
+name = breakable
+variant = breakable
+health = 1
+speed = 0
+power = 0
+sprite = breakable.png
+
+[b]
+name = monster
+variant = crate
+block = true
+sprite = crate.png
+health = 1
+speed = 0
+power = 0
+
+[s]
+name = stair
+block = true
+sprite = stair.png
+
+[p]
+name = player
+sprite = player.png
+
+[$]
+name = item
+type = money
+sprite = money.png
+
+[f]
+name = item
+type = consumable
+variant = food
+sprite = food.png
+
+[F]
+name = item
+type = consumable
+variant = food2
+sprite = chicken_raw.png
+
+[a]
+name = item
+type = consumable
+variant = airhorn
+sprite = airhorn.png
+
+[B]
+name = item
+type = consumable
+variant = bee
+sprite = bee.png
+
+[0]
+name = item
+type = consumable
+variant = potion-health
+sprite = doge.png
+
+[1]
+name = item
+type = consumable
+variant = potion-death
+sprite = doge.png
+
+[c]
+name = monster
+variant = chicken
+block = true
+sprite = egg.png
+health = 1
+speed = 0
+power = 0
+
+[g]
+name = monster
+variant = gordon
+block = true
+sprite = gordon.png
+health = 999
+speed = 0
+power = 0
+
+[S]
+name = monster
+variant = sanic
+block = true
+sprite = sanic.png
+health = 1
+speed = 0
+power = 0
+
+[o]
+name = monster
+variant = shrek
+block = true
+sprite = shrekd.png
+health = 5
+speed = 0
+power = 0
+
+[O]
+name = monster
+variant = one
+block = true
+sprite = one_net.png
+health = 2
+speed = 0
+power = 0
+
+
+
